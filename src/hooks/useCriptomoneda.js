@@ -26,7 +26,8 @@ const Select = styled.select`
 const useCriptomoneda = (label,stateInicial, opciones) => {
 
     //state de nuestro custom hook
-    const [state, actualizarState] = useState('stateInicial');
+   // const [state, actualizarState] = useState('stateInicial');
+   const [state, actualizarState] = useState(stateInicial);
 
     const SelectCripto = () => (
         <Fragment>
